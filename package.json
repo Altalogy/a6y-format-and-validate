@@ -1,0 +1,34 @@
+{
+  "name": "@altalogy/a6y-format-and-validate",
+  "version": "0.2.0",
+  "description": "Library to validate and format values.",
+  "main": "src/index.js",
+  "author": "Altalogy",
+  "license": "MIT",
+  "homepage": "https://altalogy.github.io/a6y-format-and-validate/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Altalogy/a6y-format-and-validate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Altalogy/a6y-format-and-validate/issues"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.7",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "keywords": [
+    "formater",
+    "validator"
+  ]
+}
